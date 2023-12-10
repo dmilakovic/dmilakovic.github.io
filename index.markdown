@@ -5,4 +5,7 @@
 layout: default
 ---
 
-# Hello world!
+# Hello world
+
+I'm an observational cosmologist working on fundamental physics using astronomical 
+observations. 
