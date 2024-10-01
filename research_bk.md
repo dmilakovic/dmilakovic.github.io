@@ -7,7 +7,7 @@ I am most interested in testing the immutability of fundamental constants and ma
 
 The main objectives of my research are to: 
 1. remove systematic effects spoiling precise and accurate spectroscopic measurements;
-2. use these advancements to obtain measurements of fundamental constants (e.g. the fine structure constant) and the redshift drift from the best currently available data;
+2. use these advancements to obtain measurements of fundamental constants (e.g. the fine structure constant, $\alpha$) and the redshift drift {$\dot{z} = \frac{{\rm d}z}{{\rm d}t}$} from the best currently available data;
 3. prepare for ANDES observations. 
 
 To achieve them, I focus on removing instrumental effects in extremely precise spectrographs, developing advanced data reduction software, developing spectral analysis software based on Artificial Intelligence (AI) methods. Until ANDES comes online, I am using ESPRESSO and HARPS spectrographs, the best currently available instruments for such studies. 
