@@ -30,6 +30,7 @@ my-media-path: "media/"
 github_username:  dmilakovic
 github:
     is_project_page: false
+    is_user_page: false
     project_tagline: ""
 
 

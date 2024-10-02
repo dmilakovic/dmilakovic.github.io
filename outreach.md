@@ -8,32 +8,22 @@ As a student, I also helped organise and hosted several dozen Skeptics in the Pu
 
 ### Recorded talks
 - "Promjenjive konstante" (eng. "Changing constants") at the Skeptics in the Pub, Zagreb (HR), June 2024
-
-<iframe width="500" height="300" src="https://www.youtube.com/embed/mFNDJkaU8JI" 
-title="Dinko Milaković: Promjenjive konstante" frameborder="0" allow="accelerometer; 
-autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
-web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+<div class="video-container">
+	<iframe width="500" height="300" src="https://www.youtube.com/embed/mFNDJkaU8JI" title="Dinko Milaković: Promjenjive konstante" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
 
 - "Do the laws of physics vary?", virtually for Astronomy on tap Lonon (UK), May 2021
-
-<iframe width="500" height="300" src="https://www.youtube.com/embed/GaOjC-ileY4" 
-title="AoT London x Dinko Milakovic -- Do the laws of physics vary?" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-allowfullscreen></iframe>
-
-
+<div class="video-container">
+	<iframe width="500" height="300" src="https://www.youtube.com/embed/GaOjC-ileY4" title="AoT London x Dinko Milakovic -- Do the laws of physics vary?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
 
 - "Tamna strana svemira" (eng. "The dark side of the Universe") at the Skeptics in the Pub, Zagreb (HR), June 2018
-
-<iframe width="500" height="300" src="https://www.youtube.com/embed/54HfZy-1A_8" 
-title="Dinko Milaković: Tamna strana Svemira" frameborder="0" allow="accelerometer; 
-autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-allowfullscreen></iframe>
-
-
+<div class="video-container">
+	<iframe width="500" height="300" src="https://www.youtube.com/embed/54HfZy-1A_8" title="Dinko Milaković: Tamna strana Svemira" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<br>
 
 
 ### Other talks and projects
