@@ -28,9 +28,11 @@ where $$q$$ is the theoretically derived proportionality coefficient and is diff
 
 This cartoon illustrates the effect that changing $$\Delta\alpha/\alpha$$ has on observed wavelengths of six transitions commonly observed in quasar spectra. Strongest changes are seen for Fe II and Zn II, and the weakest for Mg II and Al III. The observable is a set of relative line offsets that cannot be mistaken for a simple velocity shift.
 
-<video width="300" height="600" controls>
-  <source src="{{ site.my-media-path }}/videos/daoa_cartoon_full.mp4" type="video/mp4">
-</video>
+<div class="video-container">
+	<video controls loop>
+  		<source src="{{ site.my-media-path }}/videos/daoa.mp4" type="video/mp4">
+	</video>
+</div>
 <br>
 
 Measurements made using VLT/UVES and Keck/HIRES spectrographs hint towards $$\Delta\alpha/\alpha\neq0$$ (King et al. 2012), but systematic uncertainties dominated their error budget. Better instruments and methods are therefore required to establish whether fundamental constant variations occur. I apply newly developed spectral analysis methods based on Artificial Intelligence to analyse data from the new VLT/ESPRESSO spectrograph to produce new measurements free from systematic uncertainties.
@@ -49,9 +51,11 @@ The measurement principle is simple: one compares the redshifts of an object in 
 Some of most precise measurements can be made from objects producing narrow emission or absorption features, that are seen at all redshifts, and do not experience particular accelerations from interactions with their environments. Low density gas in the Hubble flow, traced by the Lyman-$$\alpha$$ forest seen towards distant quasars, fulfils most of these criteria so is one of the best candidates for $$\dot{z}$$ measurements. The cartoon below illustrates the expected redshift drift in $$\Lambda$$CDM in the Lyman-$$\alpha$$ forest at $$z=3$$. For an individual line, the expected change is at the level of $$\dot{z}\sim 10^{-10}$$ per year. Because the change is so small, there is no appreciable shift (to the human eye) of line positions until several million years have elapsed. However, the large number of lines in conjunction with extremely precise spectrographs should allow the effect to be measured in only 20 years. 
 
 
-<video width="600" height="400" controls>
-  <source src="{{ site.my-media-path }}/videos/zdot_3rows.mp4" type="video/mp4">
-</video>
+<div class="video-container">
+	<video controls>
+  		<source src="{{ site.my-media-path }}/videos/zdot_3rows.mp4" type="video/mp4">
+	</video>
+</div>
 <br>
 
 # Projects
