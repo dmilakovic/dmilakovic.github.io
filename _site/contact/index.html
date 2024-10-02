@@ -17,23 +17,32 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Contact" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Contact","url":"http://localhost:4000/contact/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Contact","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/media/images/dinkoslav.jpeg"}},"url":"http://localhost:4000/contact/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=2b1800f29d3bbe041d5952e584430f70e8920378">
+    <link rel="stylesheet" href="/assets/css/style.css?v=60d000617f613b6a5b001f64473823b27ff43adf">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    <script type="text/javascript"
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+		    tex2jax: {
+		      inlineMath: [['$','$'], ['\\(','\\)']],
+		      processEscapes: true},
+		      jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+		      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+		      TeX: {
+		      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+		      equationNumbers: {
+		      autoNumber: "AMS"
+		      }
+		    }
+		  });
+</script>
 
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
 
   </head>
   <body>
@@ -42,25 +51,26 @@
         <h1><a href="http://localhost:4000/">Dinko Milaković</a></h1>
 
         
+          <img src="/media/images/dinkoslav.jpeg" alt="Logo" />
+        
 
-        <p>Dinko Milakovic's website</p>
-        <p> You can contact me by writing to:</p>
-        <p><a href="mailto:site.email">dinko@milakovic.net</a> </p>
-        <p> or </p>
-        <p> via Beirut 2<br>
-            34151 Trieste (TS)<br>
+        <p></p>
+        <p>You can contact me by writing to:<br>
+        <a href="mailto:site.email">dinko@milakovic.net</a> 
+        or <br>
+        INAF Osservatorio di Trieste<br>
+            via Tiepolo 11<br>
+            34131 Trieste (TS)<br>
             Italia 
         </p>
         Page layout:
         <p>
-        <a href="./Milakovic_Dinko_CV.pdf">CV</a> <br>
+        <a href="./docs/Milakovic_Dinko_CV.pdf">Curriculum Vitae</a> <br>
         <a href="./research.html">Research</a><br>
         <a href="./outreach.html">Outreach</a><br>
         </p>
         
 
-        
-        <p class="view"><a href="https://github.com/dmilakovic/dmilakovic.github.io">View the Project on GitHub <small>dmilakovic/dmilakovic.github.io</small></a></p>
         
 
         
@@ -80,8 +90,6 @@ Italia</p>
 
       </section>
       <footer>
-        
-        <p>This project is maintained by <a href="https://github.com/dmilakovic">dmilakovic</a></p>
         
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>

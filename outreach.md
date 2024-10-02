@@ -8,17 +8,23 @@ As a student, I also helped organise and hosted several dozen Skeptics in the Pu
 
 ### Recorded talks
 - "Promjenjive konstante" (eng. "Changing constants") at the Skeptics in the Pub, Zagreb (HR), June 2024
+
 <iframe width="500" height="300" src="https://www.youtube.com/embed/mFNDJkaU8JI" 
 title="Dinko Milaković: Promjenjive konstante" frameborder="0" allow="accelerometer; 
 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
 web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+
 - "Do the laws of physics vary?", virtually for Astronomy on tap Lonon (UK), May 2021
+
 <iframe width="500" height="300" src="https://www.youtube.com/embed/GaOjC-ileY4" 
 title="AoT London x Dinko Milakovic -- Do the laws of physics vary?" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
 picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
 allowfullscreen></iframe>
+
+
 
 - "Tamna strana svemira" (eng. "The dark side of the Universe") at the Skeptics in the Pub, Zagreb (HR), June 2018
 
@@ -26,6 +32,9 @@ allowfullscreen></iframe>
 title="Dinko Milaković: Tamna strana Svemira" frameborder="0" allow="accelerometer; 
 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 allowfullscreen></iframe>
+
+
+
 
 ### Other talks and projects
 
@@ -42,7 +51,7 @@ allowfullscreen></iframe>
 # Interviews about my research
 
 ### In English
-[European Southern Observatory (ESO) blog in 2020](https://www.eso.org/public/blog/testing-fundamental-laws/)
+[European Southern Observatory (ESO) blog](https://www.eso.org/public/blog/testing-fundamental-laws/)
 
 ### In Croatian
-[Informativni centar Virovitica (ICV.hr) in 2021](https://www.icv.hr/2022/05/tamna-tvar-mali-zeleni-shaker-i-rajcice-upoznajte-svestranog-virovitickog-doktora-astrofizike-dinka-milakovica/)
+[Informativni centar Virovitica (ICV.hr)](https://www.icv.hr/2022/05/tamna-tvar-mali-zeleni-shaker-i-rajcice-upoznajte-svestranog-virovitickog-doktora-astrofizike-dinka-milakovica/)
