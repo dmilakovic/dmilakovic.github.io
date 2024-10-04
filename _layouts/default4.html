@@ -13,19 +13,17 @@
     {% include head-custom.html %}
   </head>
   <body>
-   <div class="wrapper">
-    <!-- Left Column (Fixed) -->
-      <div class="left-column">
-       <header>
+    <div class="wrapper">
+      <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img width="200" src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p>You can contact me by writing to:<br>
-        <a href="mailto:site.email">{{site.email}}</a> <br>
+        <a href="mailto:site.email">{{site.email}}</a> 
         or <br>
         INAF Osservatorio di Trieste<br>
             via Tiepolo 11<br>
@@ -34,11 +32,11 @@
         </p>
         Page layout:
         <p>
-        <!-- <a href="./docs/Milakovic_Dinko_CV.pdf">Curriculum Vitae PDF</a> <br> !-->
+        <a href="./docs/Milakovic_Dinko_CV.pdf">Curriculum Vitae PDF</a> <br>
         <a href="./curriculum.html">Curriculum Vitae</a> <br>
         <a href="./research.html">Research</a><br>
         <a href="./outreach.html">Outreach</a><br>
-        <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank">Publications</a><br>
+        <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications</a><br>
         </p>
         
         
@@ -58,23 +56,19 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages <br> Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-       </header>
-      </div>
-      
-      <!-- Right Column (Dynamic Content) -->
-      <div class="right-column">
-        <section>
-          {{ content }}
-        </section>
-      </div>
-      
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <script src="{{ "/assets/js/video-aspect-ratio.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-   
   </body>
 </html>

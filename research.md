@@ -13,7 +13,7 @@ The main objectives of my research are to:
 2. use these advancements to obtain measurements of fundamental constants and the redshift drift from the best currently available data;
 3. prepare for ANDES observations. 
 
-[A link to my publications on ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)
+[A link to my publications on ADS](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0){:target="_blank"}
 
 ## Fundamental constants
 
@@ -29,7 +29,7 @@ where $$q$$ is the theoretically derived proportionality coefficient and is diff
 This cartoon illustrates the effect that changing $$\Delta\alpha/\alpha$$ has on observed wavelengths of six transitions commonly observed in quasar spectra. Strongest changes are seen for Fe II and Zn II, and the weakest for Mg II and Al III. The observable is a set of relative line offsets that cannot be mistaken for a simple velocity shift.
 
 <div class="video-container">
-	<video controls loop>
+	<video controls loop >
   		<source src="{{ site.my-media-path }}/videos/daoa.mp4" type="video/mp4">
 	</video>
 </div>
@@ -40,7 +40,7 @@ Measurements made using VLT/UVES and Keck/HIRES spectrographs hint towards $$\De
 
 ## Redshift drift 
 
-The redshift drift experiment will confirm a fundamental property of an accelerating universe, the temporal evolution of the redshift of an object in the cosmic expansion flow, $$\dot{z}\equiv {\rm d} z/{\rm d}t \neq 0$$. Reconstructing $$\dot{z}(z)$$ provides a unique measurement of the expansion history of the Universe that is non-geometric, model independent, and is straightforward to interpret, unlike large-scale structure or CMB measurements. In a universe described by Friedman-Robertson-Walked metric, 
+The redshift drift experiment will confirm a fundamental property of an accelerating universe, the temporal evolution of the redshift of an object in the cosmic expansion flow, $$\dot{z}\equiv {\rm d} z/{\rm d}t \neq 0$$. Reconstructing $$\dot{z}(z)$$ provides a unique measurement of the expansion history of the Universe that is non-geometric, model independent, and is straightforward to interpret, unlike large-scale structure or CMB measurements. In a universe described by Friedman-Lemaitre-Robertson-Walker metric, 
 
 $$\dot{z}=(1+z)H(t_{\rm obs}) - H(t_{\rm em})$$, 
 

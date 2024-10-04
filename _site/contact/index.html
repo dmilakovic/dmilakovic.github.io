@@ -20,7 +20,7 @@
 {"@context":"https://schema.org","@type":"WebPage","headline":"Contact","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/media/images/dinkoslav.jpeg"}},"url":"http://localhost:4000/contact/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=5fd2c5b0462e0ffaba3a1dd084204fc591f4c936">
+    <link rel="stylesheet" href="/assets/css/style.css?v=49e5f19749c82199298fc39687b6770f3382d49d">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -46,17 +46,19 @@
 
   </head>
   <body>
-    <div class="wrapper">
-      <header>
+   <div class="wrapper">
+    <!-- Left Column (Fixed) -->
+      <div class="left-column">
+       <header>
         <h1><a href="http://localhost:4000/">Dinko Milaković</a></h1>
 
         
-          <img src="/media/images/dinkoslav.jpeg" alt="Logo" />
+          <img width="200" src="/media/images/dinkoslav.jpeg" alt="Logo" />
         
 
         <p></p>
         <p>You can contact me by writing to:<br>
-        <a href="mailto:site.email">dinko@milakovic.net</a> 
+        <a href="mailto:site.email">dinko@milakovic.net</a> <br>
         or <br>
         INAF Osservatorio di Trieste<br>
             via Tiepolo 11<br>
@@ -65,10 +67,11 @@
         </p>
         Page layout:
         <p>
-        <a href="./docs/Milakovic_Dinko_CV.pdf">Curriculum Vitae</a> <br>
+        <!-- <a href="./docs/Milakovic_Dinko_CV.pdf">Curriculum Vitae PDF</a> <br> !-->
+        <a href="./curriculum.html">Curriculum Vitae</a> <br>
         <a href="./research.html">Research</a><br>
         <a href="./outreach.html">Outreach</a><br>
-        <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications</a><br>
+        <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Milakovic%2C%20D%22%20or%20author%3A%22Milakovi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank">Publications</a><br>
         </p>
         
         
@@ -78,10 +81,15 @@
         
 
         
-      </header>
-      <section>
-
-      <p>You can contact me by writing to <a href="&quot;mailto:dinko@milakovic.net&quot;">dinko@milakovic.net</a>.</p>
+        
+        <p><small>Hosted on GitHub Pages <br> Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+       </header>
+      </div>
+      
+      <!-- Right Column (Dynamic Content) -->
+      <div class="right-column">
+        <section>
+          <p>You can contact me by writing to <a href="&quot;mailto:dinko@milakovic.net&quot;">dinko@milakovic.net</a>.</p>
 
 <p>or</p>
 
@@ -89,13 +97,12 @@
 34151 Trieste (TS)<br />
 Italia</p>
 
-
-      </section>
-      <footer>
-        
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+        </section>
+      </div>
+      
     </div>
+    <script src="/assets/js/video-aspect-ratio.js"></script>
     <script src="/assets/js/scale.fix.js"></script>
+   
   </body>
 </html>

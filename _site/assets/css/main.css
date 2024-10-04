@@ -1,11 +1,78 @@
-.video-container {
-  max-width: 100%; /* Container will scale to fit its parent */
-  margin: 0 auto; /* Center the video */
+
+.wrapper {
+#  max-width: 900px;   /* Max wrapper width */
+#  width: 100%;         /* Full width for responsiveness */
+#  margin: 0 auto;      /* Center the wrapper */
+#  display: flex;       /* Flexbox to manage layout */
 }
 
-.video-container video {
-  width: 100%; /* The video takes up full width of the container */
-  max-width: 600px; /* Limit the maximum width */
-  height: auto; /* Maintain the aspect ratio of the video */
-  display: block; /* Remove any inline elements’ spacing issues */
+.left-column {
+  position: fixed; /* Fix the left column on the page */
+  left: 0; /* Align the left column to the very left edge of the screen */
+  width: 250px; /* Set a width for the left column */
+  height: 100vh; /* Full height for the left column */
+  background-color: #f4f4f4; /* Optional: Background color for visibility */
+  padding: 10px; /* Optional: Padding for content inside the left column */
 }
+
+.right-column {
+  flex: 1; 
+  left: 00px; 
+  margin-left: 00px; /* Push the right column to the right, accounting for the left column's width */
+  padding: 10px; /* Add padding for content in the right column */
+#  width: calc(100% - 850px); /* Responsive width based on the left column */
+}
+
+section {
+  width: 100%;        /* Take up all available space in the wrapper */
+  max-width: 950px;   /* Optional: Limit the width to prevent it from growing too large */
+  padding-bottom: 50px;
+}
+
+.video-container {
+    position: relative;          /* Positioning context for the iframe or video */
+    width: auto;                /* Full width of the parent */
+    max-width: 600px;           /* Set a maximum width for the container */
+    max-height: 80vh;           /* Set a maximum height relative to viewport */
+    margin: 0 auto;             /* Center the container */
+    overflow: hidden;           /* Hide overflow to keep things tidy */
+   # padding-top: 56.25%;        /* Fallback for 16:9 aspect ratio */
+}
+
+
+.video-container video,
+.video-container iframe {
+  width: auto;            /* Width will be 100% of the container */
+  height: auto;           /* Maintain aspect ratio automatically */
+  max-height: 100%;       /* Prevent overflow beyond the container */
+  object-fit: contain;    /* Ensure the video fits within the container */
+}
+
+
+
+# Text
+
+.text-split {
+  display: flex !important;            /* Ensure flexbox is applied */
+  justify-content: space-between;      /* Distribute left and right parts */
+  align-items: center;                 /* Center the items vertically */
+  width: 100%;                         /* Make sure it takes full width */
+  margin: 0 !important;                /* Override any parent margin */
+  padding: 0 !important;               /* Override any parent padding */
+}
+
+
+.text-split .left {
+  flex: 1;                             /* Left content takes available space */
+  text-align: left;                    /* Align left content to the left */
+}
+
+.text-split .right {
+  text-align: right;                   /* Align right content to the right */
+  white-space: nowrap;                 /* Prevent wrapping on the right side */
+}
+
+
+
+
+
