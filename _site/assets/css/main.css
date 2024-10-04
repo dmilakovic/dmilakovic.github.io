@@ -8,7 +8,7 @@
 
 .left-column {
   position: fixed; /* Fix the left column on the page */
-  left: 0; /* Align the left column to the very left edge of the screen */
+  left: 300px; /* Align the left column to the very left edge of the screen */
   width: 250px; /* Set a width for the left column */
   height: 100vh; /* Full height for the left column */
   background-color: #f4f4f4; /* Optional: Background color for visibility */
@@ -18,9 +18,9 @@
 .right-column {
   flex: 1; 
   left: 00px; 
-  margin-left: 00px; /* Push the right column to the right, accounting for the left column's width */
+  margin-left: 300px; /* Push the right column to the right, accounting for the left column's width */
   padding: 10px; /* Add padding for content in the right column */
-#  width: calc(100% - 850px); /* Responsive width based on the left column */
+#  width: calc(100% - 550px); /* Responsive width based on the left column */
 }
 
 section {
